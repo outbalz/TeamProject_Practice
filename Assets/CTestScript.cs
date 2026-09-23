@@ -7,5 +7,14 @@ public class CTestScript : MonoBehaviour
     private void Awake()
     {
         Debug.Log("Hello, World!");
+        Debug.Log("Hello, World!");
+        Debug.Log("Hello, World!");
+        Debug.Log("Hello, World!");
+        Debug.Log("Hello, World!");
+        Debug.Log("Hello, World!");
+        Debug.Log("Hello, World!");
+
     }
+
+
 }
