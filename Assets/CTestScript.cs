@@ -6,6 +6,14 @@ public class CTestScript : MonoBehaviour
 {
     private void Awake()
     {
+        Debug.Log("Hello, World!");
+        Debug.Log("Hello, World!");
+        Debug.Log("Hello, World!");
+        Debug.Log("Hello, World!");
+        Debug.Log("Hello, World!");
+        Debug.Log("Hello, World!");
+        Debug.Log("Hello, World!");
+
         Debug.Log("H World!");
         Debug.Log("He World!");
         Debug.Log(", World!");
@@ -14,4 +22,6 @@ public class CTestScript : MonoBehaviour
             Debug.Log("Hello, World!");
         }        
     }
+
+
 }
