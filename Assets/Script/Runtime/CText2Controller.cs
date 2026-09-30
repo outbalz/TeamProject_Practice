@@ -13,8 +13,8 @@ public class CText2Controller : MonoBehaviour
         _textList = textList;
 
         string totaltext = "";
-
-       for (int i = 0; i < textList.Count; i++)
+        
+        for (int i = 0; i < textList.Count; i++)
         {
             totaltext += _textList[i];
 
@@ -25,7 +25,7 @@ public class CText2Controller : MonoBehaviour
 
             totaltext += "\n";
         }
-
-       _text.text = totaltext;
+        
+        _text.text = totaltext;
     }
 }
