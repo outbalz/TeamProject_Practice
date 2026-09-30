@@ -18,8 +18,12 @@ public class CText2Controller : MonoBehaviour
         {
             totaltext += _textList[i];
 
-            totaltext += "\t\n";
+            for (int j = 0; j < i; j++)
+            {
+                totaltext += "\t";
+            }
 
+            totaltext += "\n";
         }
 
        _text.text = totaltext;
