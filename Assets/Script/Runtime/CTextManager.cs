@@ -21,12 +21,12 @@ public class CTextManager : MonoBehaviour
 		List<string> stringList1 = new List<string>(_textList);
 		List<string> stringList2 = new List<string>();
 
-		if (stringList1.Count > 20)
+		if (stringList1.Count > 22)
 		{
-			stringList1.RemoveRange(20, stringList1.Count - 20);
+			stringList1.RemoveRange(22, stringList1.Count - 22);
 
 			stringList2 = new List<string>(_textList);
-            stringList2.RemoveRange(0, 20);
+            stringList2.RemoveRange(0, 22);
 
 		}
 
