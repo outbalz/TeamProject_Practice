@@ -12,8 +12,11 @@ public class CText1Controller : MonoBehaviour
     {
         _textList = textList;
 
-        //for test
-        _text.text = _textList[0];
+        string firstText = _textList[0];
+
+        string secondText = _textList[1];
+
+        _text.text = firstText + "\n        " + secondText;
     }
 
 
